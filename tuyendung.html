@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tuyển dụng - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tuyendung.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tuyendung">
+            <div class="tuyendung-header">Tuyển dụng</div>
+            <div class="tuyendung-info">
+                <h1 class="tieude">NHÂN VIÊN TƯ VẤN BÁN HÀNG</h1><br/>
+
+                <b>1. MÔ TẢ CÔNG VIỆC</b>
+                <ul class="tuyendung-noidung">
+                    <li>Đón tiếp, trò chuyện và lắng nghe khách hàng về nhu cầu sử dụng điện thoại, máy tính, phụ kiện...</li>
+                    <li>Tư vấn tính năng, tiện ích của các sản phẩm và các dịch vụ kèm theo</li>
+                    <li>Hỗ trợ khách hàng lựa chọn sản phẩm, dịch vụ phù hợp & hỗ trợ sau bán hàng</li>
+                    <li>Giải đáp các câu hỏi về sản phẩm, dịch vụ</li>
+                </ul>
+
+                <b>2. THỜI GIAN LÀM VIỆC</b>
+                <ul class="tuyendung-noidung">
+                    <li>Từ 18h – 21h30 các ngày trong tuần</li>
+                    <li>Nghỉ 3 ngày/ tháng</li>
+                </ul>
+
+                <b>3. ĐỊA ĐIỂM LÀM VIỆC</b>
+                <ul class="tuyendung-noidung">
+                    <span>280 Đ. An Dương Vương, Phường 4, Quận 5, Thành phố Hồ Chí Minh</span>
+                </ul>
+
+                <b>4. YÊU CẦU</b>
+                <ul class="tuyendung-noidung">
+                    <li>Nam/Nữ, tuổi từ 18 – 27</li>
+                    <li>Bạn là người thân thiện, niềm nở, thích giao tiếp với người khác</li>
+                    <li>Yêu thích công việc bán hàng và chăm sóc khách hàng</li>
+                    <li>Có niềm đam mê, có kiến thức công nghệ và mong muốn được chia sẻ kiến thức cho khách hàng</li>
+                    <li><span>Số lượng cần tuyển: 02</span></li>
+                </ul>
+
+                <b>5. QUYỀN LỢI</b>
+                <ul class="tuyendung-noidung">
+                    <li>THU NHẬP: <span>7.000.000 - 15.000.000 VNĐ/tháng</span> (LCB + Thưởng chương trình thi đua hàng tuần/tháng/năm)</li>
+                    <li>Làm việc trong một môi trường năng động, thân thiện, chuyên nghiệp, có cơ hội thăng tiến cao</li>
+                    <li>Hưởng đầy đủ các chế độ bảo hiểm xã hội, y tế, thất nghiệp theo luật lao động; chế độ phúc lợi hiếu, hỉ, sinh nhật, du lịch nghỉ mát</li>
+                    <li>Tham gia các khóa đào tạo kỹ năng mềm, định hướng chuyên môn phát triển bản thân</li>
+                    <li>Nhận thưởng vào các ngày Lễ, Tết, thưởng doanh số hàng tháng, quý, năm hấp dẫn</li>
+                </ul>
+
+                <b>6. LIÊN HỆ</b>
+                <ul class="tuyendung-noidung">
+                    <li>Ứng viên điền thông tin theo link: 
+                        <a href="" target="_blank">
+                            <span>Tuyển dụng</span>
+                        </a>
+                    </li>
+                    <li>Hoặc nộp hồ sơ trực tiếp tại <b>Phòng Hành chính nhân sự - ..., TPHCM.</b></li>
+                    <li>Hoặc gửi CV qua email:<b> ...@gmail.com</b></li>
+                </ul>
+            </div>
+            <div class="tuyendung-info">
+                <h1 class="tieude">NHÂN VIÊN THU NGÂN</h1><br/>
+
+                <b>1. MÔ TẢ CÔNG VIỆC</b>
+                <ul class="tuyendung-noidung">
+                    <li>Chào đón khách hàng</li>
+                    <li>Tiếp nhận đơn hàng, lập phiếu bán, thực hiện thu tiền thanh toán tại cửa hàng</li>
+                    <li>Thực hiện các nghiệp vụ thu, chi tại cửa hàng</li>
+                    <li>Kiểm quỹ, chốt hàng hóa cuối ca & báo cáo công việc theo quy định của Công ty</li>
+                </ul>
+
+                <b>2. THỜI GIAN LÀM VIỆC</b>
+                <ul class="tuyendung-noidung">
+                    <li>Từ 18h – 21h30 các ngày trong tuần</li>
+                    <li>Nghỉ 3 ngày/ tháng</li>
+                </ul>
+
+                <b>3. ĐỊA ĐIỂM LÀM VIỆC</b>
+                <ul class="tuyendung-noidung">
+                    <span>280 Đ. An Dương Vương, Phường 4, Quận 5, Thành phố Hồ Chí Minh</span>
+                </ul>
+
+                <b>4. YÊU CẦU</b>
+                <ul class="tuyendung-noidung">
+                    <li>Nữ, tuổi từ 18 – 27</li>
+                    <li>Am hiểu về tin học Văn phòng</li>
+                    <li>Giao tiếp vui vẻ. Cẩn thận, trung thực là đức tính của bạn</li>
+                    <li>Ưu tiên tốt nghiệp các chuyên ngành liên quan: kế toán, tài chính ngân hàng</li>
+                    <li><span>Số lượng cần tuyển: 01</span></li>
+                </ul>
+
+                <b>5. QUYỀN LỢI</b>
+                <ul class="tuyendung-noidung">
+                    <li>THU NHẬP: <span>7.000.000 - 15.000.000 VNĐ/tháng</span> (LCB + Thưởng chương trình thi đua hàng tuần/tháng/năm)</li>
+                    <li>Môi trường năng động, thân thiện, chuyên nghiệp, có cơ hội thăng tiến cao</li>
+                    <li>Cơ hội thăng tiến lên vị trí Quản lý sau 03 - 06 tháng</li>
+                    <li>Tham gia các khóa đào tạo nghiệp vụ, định hướng chuyên môn phát triển bản thân</li>
+                    <li>Du lịch hằng năm, tham gia các hoạt động ngoại khóa…</li>
+                    <li>Nhận thưởng vào các ngày Lễ, Tết, thưởng doanh số hàng tháng, quý, năm hấp dẫn</li>
+                    <li>Hưởng đầy đủ các chế độ bảo hiểm xã hội, y tế, thất nghiệp theo luật lao động; chế độ phúc lợi hiếu, hỉ, sinh nhật, du lịch nghỉ mát</li>
+                    <li>Quyền lợi gói bảo hiểm sức khỏe: Bảo hiểm nội-ngoại trú, Nha khoa, bảo hiểm tai nạn,...</li>
+                </ul>
+
+                <b>6.LIÊN HỆ</b>
+                <ul class="tuyendung-noidung">
+                    <li>Ứng viên điền thông tin theo link: 
+                        <a href="" target="_blank">
+                            <span>Tuyển dụng</span>
+                        </a>
+                    </li>
+                    <li>Hoặc nộp hồ sơ trực tiếp tại <b>Phòng Hành chính nhân sự - ..., TPHCM.</b></li>
+                    <li>Hoặc gửi CV qua email:<b> ...@gmail.com</b></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan() </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
