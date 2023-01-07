@@ -1,6 +1,6 @@
 var adminInfo = [{
     "username": "admin",
-    "pass": "adadad"
+    "pass": "admin"
 }];
 
 function getListAdmin() {
@@ -209,7 +209,7 @@ function logIn(form) {
     // Đăng nhập vào admin
     for (var ad of adminInfo) {
         if (equalUser(newUser, ad)) {
-            alert('Xin chào admin .. ');
+            alert('Xin chào admin... ');
             window.localStorage.setItem('admin', true);
             window.location.assign('admin.html');
             return false;
@@ -844,8 +844,8 @@ function getThongTinSanPhamFrom_TheGioiDiDong() {
 						case "Bộ nhớ trong:":
 							result.detail.rom = giatri;
 							break;
-						case "Thẻ nhớ:":
-							result.detail.microUSB = giatri;
+						case "Sim:":
+							result.detail.sim = giatri;
 							break;
 						case "Dung lượng pin:":
 							result.detail.battery = giatri;

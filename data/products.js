@@ -137,6 +137,52 @@ var list_products = [{
     },
     "masp": "Nok0"
 }, {
+    "name": " Sony Xperia XZ Premium",
+    "company": "Sony",
+    "img": "img/products/Sony-Xperia-XZ-Premium.png",
+    "price": "1.750.000",
+    "star": 5,
+    "rateCount": 73,
+    "promo": {
+        "name": "",
+        "value": ""
+    },
+    "detail": {
+        "screen": "IPS LCD, 5.46 inches",
+        "os": "Android 9.0",
+        "camara": "19 MP, f/2.0",
+        "camaraFront": "13 MP, f/2.0",
+        "cpu": "Snapdragon 835",
+        "ram": "4 GB",
+        "rom": "64 GB",
+        "sim": "1 Nano-SIM",
+        "battery": "3230 mAh, sạc nhanh 18W"
+    },
+    "masp": "Son0"
+}, {
+    "name": " Sony Xperia 5 IV",
+    "company": "Sony",
+    "img": "img/products/Sony-Xperia-5-IV.png",
+    "price": "12.490.000",
+    "star": 0,
+    "rateCount": 0,
+    "promo": {
+        "name": "moiramat",
+        "value": ""
+    },
+    "detail": {
+        "screen": "OLED, 6.1 inches",
+        "os": "Android 12",
+        "camara": "12 MP, f/1.7",
+        "camaraFront": "12 MP, f/2.0",
+        "cpu": "Snapdragon 8 Gen 1",
+        "ram": "8 GB",
+        "rom": "256 GB",
+        "sim": "1 Nano-SIM",
+        "battery": "5000 mAh, sạc nhanh 45W"
+    },
+    "masp": "Son1"
+},{
     "name": "iPhone 14 Pro Max 256GB",
     "company": "Apple",
     "img": "img/products/iPhone-14-Pro-Max-256GB.png",
@@ -205,7 +251,30 @@ var list_products = [{
         "battery": "5000 mAh, sạc nhanh 45W"
     },
     "masp": "Sam2"
-}, {
+},  {
+    "name": "Samsung Galaxy S20 Ultra 5G",
+    "company": "Samsung",
+    "img": "img/products/Samsung-Galaxy-S20-Ultra.jpg",
+    "price": "8.090.000",
+    "star": 5,
+    "rateCount": 8,
+    "promo": {
+        "name": "giamgia",
+        "value": "200.000"
+    },
+    "detail": {
+        "screen": "Dynamic AMOLED, 6.9 inches",
+        "os": "Android 10",
+        "camara": "108 MP, f/1.8",
+        "camaraFront": "40 MP, f/2.2",
+        "cpu": "Exynos 990",
+        "ram": "12 GB",
+        "rom": "256 GB",
+        "sim": "2 SIM (Nano-SIM + eSIM)",
+        "battery": "5000 mAh, sạc nhanh 45W"
+    },
+    "masp": "Sam5"
+},{
     "name": "OPPO Find X",
     "company": "Oppo",
     "img": "img/products/oppo-find-x.jpg",
@@ -761,12 +830,12 @@ var list_products = [{
     "name": "iPhone XR 128GB",
     "company": "Apple",
     "img": "img/products/Apple-iPhone-XR-128GB.jpg",
-    "price": "15.990.000",
+    "price": "12.990.000",
     "star": 0,
     "rateCount": 0,
     "promo": {
         "name": "giareonline",
-        "value": "12.490.000"
+        "value": "10.490.000"
     },
     "detail": {
         "screen": "IPS LCD, 6.1 inches",
@@ -849,6 +918,29 @@ var list_products = [{
         "battery": "2227 mAh, sạc nhanh 20W"
     },
     "masp": "App6"
+}, {
+    "name": "iPhone X 256GB",
+    "company": "Apple",
+    "img": "img/products/iPhone-X-256GB.png",
+    "price": "11.250.000",
+    "star": 0,
+    "rateCount": 0,
+    "promo": {
+        "name": "tragop",
+        "value": "0"
+    },
+    "detail": {
+        "screen": "Super Retina OLED, 5.8 inches",
+        "os": "iOS 11.1.1",
+        "camara": "12 MP, f/1.8",
+        "camaraFront": "7 MP, f/2.2",
+        "cpu": "Apple A11 Bionic",
+        "ram": "3 GB",
+        "rom": "256 GB",
+        "sim": " 1 SIM Nano‑SIM",
+        "battery": "2716 mAh, sạc nhanh 15W"
+    },
+    "masp": "App8"
 }, {
     "name": "iPad 10.2 2021 WiFi 256GB",
     "company": "Apple",
